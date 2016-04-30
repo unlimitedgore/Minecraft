@@ -1,0 +1,352 @@
+6.0.0 18-04-2016 22:58:57 Starting new session. Mods: examplemod 
+6.0.0 18-04-2016 22:59:00 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 18-04-2016 22:59:03 MAJOR: null: Loading language: fr
+6.0.0 18-04-2016 23:06:34 Starting new session. Mods: examplemod 
+6.0.0 18-04-2016 23:06:40 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 18-04-2016 23:06:46 MAJOR: null: Loading language: fr
+6.0.0 18-04-2016 23:09:55 Starting new session. Mods: examplemod 
+6.0.0 18-04-2016 23:10:01 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 18-04-2016 23:10:20 MAJOR: null: Loading language: fr
+6.0.0 18-04-2016 23:13:35 Starting new session. Mods: examplemod 
+6.0.0 18-04-2016 23:13:44 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 18-04-2016 23:13:51 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 22:57:59 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 22:58:09 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 22:58:17 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:11:18 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:11:28 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:11:37 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:14:42 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:15:20 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:15:28 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:18:26 Trying to set null block
+6.0.0 19-04-2016 23:18:26 java.lang.Exception
+	at org.millenaire.common.core.MillCommonUtilities.setBlockAndMetadata(MillCommonUtilities.java:1871)
+	at org.millenaire.common.core.MillCommonUtilities.setBlockAndMetadata(MillCommonUtilities.java:1894)
+	at org.millenaire.common.building.BuildingBlock.build(BuildingBlock.java:151)
+	at org.millenaire.common.building.BuildingPlan.build(BuildingPlan.java:1791)
+	at org.millenaire.common.building.BuildingPlanSet.buildLocation(BuildingPlanSet.java:40)
+	at org.millenaire.common.WorldGenVillage.generateVillage(WorldGenVillage.java:355)
+	at org.millenaire.common.WorldGenVillage.generateVillageAtPoint(WorldGenVillage.java:512)
+	at org.millenaire.common.WorldGenVillage.generate(WorldGenVillage.java:142)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:280)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.server.management.PlayerManager$PlayerInstance.<init>(PlayerManager.java:370)
+	at net.minecraft.server.management.PlayerManager.func_72690_a(PlayerManager.java:97)
+	at net.minecraft.server.management.PlayerManager.func_72691_b(PlayerManager.java:174)
+	at net.minecraft.server.management.PlayerManager.func_72685_d(PlayerManager.java:267)
+	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:313)
+	at net.minecraft.network.NetHandlerPlayServer.func_147347_a(NetHandlerPlayServer.java:404)
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:137)
+	at net.minecraft.network.play.client.C03PacketPlayer$C04PacketPlayerPosition.func_148833_a(SourceFile:63)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 19-04-2016 23:18:26 Exception in BuildingBlock.build():
+6.0.0 19-04-2016 23:18:26 java.lang.NullPointerException
+	at net.minecraft.world.chunk.storage.ExtendedBlockStorage.func_150818_a(SourceFile:57)
+	at net.minecraft.world.chunk.Chunk.func_150807_a(Chunk.java:595)
+	at net.minecraft.world.World.func_147465_d(World.java:451)
+	at org.millenaire.common.core.MillCommonUtilities.setBlockAndMetadata(MillCommonUtilities.java:1875)
+	at org.millenaire.common.core.MillCommonUtilities.setBlockAndMetadata(MillCommonUtilities.java:1894)
+	at org.millenaire.common.building.BuildingBlock.build(BuildingBlock.java:151)
+	at org.millenaire.common.building.BuildingPlan.build(BuildingPlan.java:1791)
+	at org.millenaire.common.building.BuildingPlanSet.buildLocation(BuildingPlanSet.java:40)
+	at org.millenaire.common.WorldGenVillage.generateVillage(WorldGenVillage.java:355)
+	at org.millenaire.common.WorldGenVillage.generateVillageAtPoint(WorldGenVillage.java:512)
+	at org.millenaire.common.WorldGenVillage.generate(WorldGenVillage.java:142)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:280)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.server.management.PlayerManager$PlayerInstance.<init>(PlayerManager.java:370)
+	at net.minecraft.server.management.PlayerManager.func_72690_a(PlayerManager.java:97)
+	at net.minecraft.server.management.PlayerManager.func_72691_b(PlayerManager.java:174)
+	at net.minecraft.server.management.PlayerManager.func_72685_d(PlayerManager.java:267)
+	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:313)
+	at net.minecraft.network.NetHandlerPlayServer.func_147347_a(NetHandlerPlayServer.java:404)
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:137)
+	at net.minecraft.network.play.client.C03PacketPlayer$C04PacketPlayerPosition.func_148833_a(SourceFile:63)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 19-04-2016 23:18:26 Repeat exception x2: null
+6.0.0 19-04-2016 23:18:26 Repeat exception x2: null
+6.0.0 19-04-2016 23:18:26 Repeat exception x3: null
+6.0.0 19-04-2016 23:18:26 Repeat exception x3: null
+6.0.0 19-04-2016 23:31:43 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:31:51 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:31:58 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:34:21 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:34:30 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:34:38 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:43:44 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:43:53 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:44:02 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:48:16 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:48:22 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:48:31 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:49:22 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:49:29 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:49:37 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:51:17 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:51:23 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:51:30 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:52:18 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:52:28 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:52:36 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:53:50 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:54:01 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:54:11 MAJOR: null: Loading language: fr
+6.0.0 19-04-2016 23:57:41 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:57:54 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:58:04 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 08:19:04 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 08:19:17 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 08:19:27 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 08:23:32 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 08:23:43 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 08:23:53 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 08:27:27 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 08:27:38 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 08:27:44 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 08:29:41 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 08:29:56 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 08:30:07 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 08:33:02 Exception when generating village:
+6.0.0 20-04-2016 08:33:02 java.lang.ArrayIndexOutOfBoundsException: -9
+	at net.minecraft.world.chunk.Chunk.func_150810_a(Chunk.java:511)
+	at org.millenaire.common.MillWorldInfo.updateChunk(MillWorldInfo.java:509)
+	at org.millenaire.common.MillWorldInfo.createWorldInfo(MillWorldInfo.java:200)
+	at org.millenaire.common.MillWorldInfo.update(MillWorldInfo.java:380)
+	at org.millenaire.common.WorldGenVillage.generateVillage(WorldGenVillage.java:236)
+	at org.millenaire.common.WorldGenVillage.generateVillageAtPoint(WorldGenVillage.java:605)
+	at org.millenaire.common.WorldGenVillage.generate(WorldGenVillage.java:142)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:280)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+	at net.minecraft.world.World.func_147439_a(World.java:345)
+	at net.minecraft.block.BlockGrass.func_149674_a(BlockGrass.java:57)
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:391)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:183)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:625)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at fastcraft.at.a(F:978)
+	at fastcraft.H.aq(F:36)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:396)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 20-04-2016 08:33:02 Repeat exception x2: -9
+6.0.0 20-04-2016 08:33:02 Repeat exception x3: -9
+6.0.0 20-04-2016 08:33:02 Repeat exception x4: -9
+6.0.0 20-04-2016 08:33:02 Repeat exception x5: -9
+6.0.0 20-04-2016 08:33:02 Repeat exception x6: -9
+6.0.0 20-04-2016 08:33:02 Repeat exception x7: -9
+6.0.0 20-04-2016 08:33:02 Exception when generating village:
+6.0.0 20-04-2016 08:33:02 java.lang.ArrayIndexOutOfBoundsException: -8
+	at net.minecraft.world.chunk.Chunk.func_150810_a(Chunk.java:511)
+	at org.millenaire.common.MillWorldInfo.updateChunk(MillWorldInfo.java:509)
+	at org.millenaire.common.MillWorldInfo.createWorldInfo(MillWorldInfo.java:200)
+	at org.millenaire.common.MillWorldInfo.update(MillWorldInfo.java:380)
+	at org.millenaire.common.WorldGenVillage.generateVillage(WorldGenVillage.java:236)
+	at org.millenaire.common.WorldGenVillage.generateVillageAtPoint(WorldGenVillage.java:512)
+	at org.millenaire.common.WorldGenVillage.generate(WorldGenVillage.java:142)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:280)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.server.management.PlayerManager$PlayerInstance.<init>(PlayerManager.java:370)
+	at net.minecraft.server.management.PlayerManager.func_72690_a(PlayerManager.java:97)
+	at net.minecraft.server.management.PlayerManager.func_72691_b(PlayerManager.java:174)
+	at net.minecraft.server.management.PlayerManager.func_72685_d(PlayerManager.java:267)
+	at net.minecraft.server.management.ServerConfigurationManager.func_72358_d(ServerConfigurationManager.java:313)
+	at net.minecraft.network.NetHandlerPlayServer.func_147347_a(NetHandlerPlayServer.java:404)
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:137)
+	at net.minecraft.network.play.client.C03PacketPlayer$C04PacketPlayerPosition.func_148833_a(SourceFile:63)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at fastcraft.at.a(F:978)
+	at fastcraft.H.aq(F:36)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:396)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 20-04-2016 08:33:03 Repeat exception x8: -9
+6.0.0 20-04-2016 08:33:03 Repeat exception x9: -9
+6.0.0 20-04-2016 08:33:03 Repeat exception x10: -9
+6.0.0 20-04-2016 08:33:03 Repeat exception x2: -8
+6.0.0 20-04-2016 08:33:03 Repeat exception x11: -9
+6.0.0 20-04-2016 08:33:03 Repeat exception x12: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x13: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x14: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x15: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x16: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x17: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x18: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x3: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x19: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x4: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x5: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x20: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x6: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x7: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x8: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x9: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x10: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x21: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x22: -9
+6.0.0 20-04-2016 08:33:05 Repeat exception x11: -8
+6.0.0 20-04-2016 08:33:05 Repeat exception x23: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x24: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x25: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x26: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x27: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x28: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x12: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x13: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x14: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x15: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x16: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x17: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x18: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x19: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x20: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x21: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x22: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x23: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x24: -8
+6.0.0 20-04-2016 08:33:07 Repeat exception x29: -9
+6.0.0 20-04-2016 08:33:07 Repeat exception x30: -9
+6.0.0 20-04-2016 08:35:57 Repeat exception x31: -9
+6.0.0 20-04-2016 08:36:01 Repeat exception x32: -9
+6.0.0 20-04-2016 08:36:01 Repeat exception x33: -9
+6.0.0 20-04-2016 08:36:01 Repeat exception x34: -9
+6.0.0 20-04-2016 08:36:01 Repeat exception x35: -9
+6.0.0 20-04-2016 09:19:21 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 09:21:24 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 09:21:38 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 09:21:49 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 09:25:15 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 09:25:27 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 09:25:36 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 09:28:30 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 09:28:48 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 09:28:57 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 10:17:24 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 10:17:40 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 10:17:49 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 10:46:30 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 10:46:48 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 10:46:58 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 10:52:53 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 10:53:09 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 10:53:20 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 11:14:06 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 11:14:20 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 11:14:27 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 11:24:12 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 11:24:29 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 11:24:41 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 11:40:25 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 11:40:34 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 11:40:43 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 11:52:50 Exception when generating village:
+6.0.0 20-04-2016 11:52:50 java.lang.ArrayIndexOutOfBoundsException: -8
+	at net.minecraft.world.chunk.Chunk.func_150810_a(Chunk.java:511)
+	at org.millenaire.common.MillWorldInfo.updateChunk(MillWorldInfo.java:509)
+	at org.millenaire.common.MillWorldInfo.createWorldInfo(MillWorldInfo.java:200)
+	at org.millenaire.common.MillWorldInfo.update(MillWorldInfo.java:380)
+	at org.millenaire.common.WorldGenVillage.generateVillage(WorldGenVillage.java:236)
+	at org.millenaire.common.WorldGenVillage.generateVillageAtPoint(WorldGenVillage.java:605)
+	at org.millenaire.common.WorldGenVillage.generate(WorldGenVillage.java:142)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:280)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1040)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:52)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12)
+	at net.minecraftforge.common.util.AsynchronousExecutor$Task.finish(AsynchronousExecutor.java:189)
+	at net.minecraftforge.common.util.AsynchronousExecutor.finishActive(AsynchronousExecutor.java:354)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.tick(ChunkIOExecutor.java:30)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:596)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at fastcraft.at.a(F:978)
+	at fastcraft.H.aq(F:36)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:396)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 20-04-2016 11:52:50 Repeat exception x2: -8
+6.0.0 20-04-2016 11:52:51 Repeat exception x3: -8
+6.0.0 20-04-2016 11:52:54 Exception when generating village:
+6.0.0 20-04-2016 11:52:54 java.lang.ArrayIndexOutOfBoundsException
+
+6.0.0 20-04-2016 11:52:54 Repeat exception x2: null
+6.0.0 20-04-2016 11:52:54 Repeat exception x3: null
+6.0.0 20-04-2016 12:08:11 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 12:08:20 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 12:08:27 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 12:23:38 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 12:23:50 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 12:24:01 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 12:56:22 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 12:56:36 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 12:56:47 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 13:25:33 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 13:25:42 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 13:25:51 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 13:59:04 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 13:59:17 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 13:59:32 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 14:04:34 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 14:04:48 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 14:05:00 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 14:47:17 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 14:47:27 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 14:47:37 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 15:43:47 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 15:44:16 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 15:44:29 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 15:50:26 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 15:50:38 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 15:50:47 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 15:58:37 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 15:58:47 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 15:58:57 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 16:02:39 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 16:02:49 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 16:02:57 MAJOR: null: Loading language: fr
+6.0.0 20-04-2016 16:10:26 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 16:10:32 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 16:10:40 MAJOR: null: Loading language: fr
+6.0.0 24-04-2016 16:08:54 Starting new session. Mods: examplemod 
+6.0.0 24-04-2016 16:09:03 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 24-04-2016 16:09:11 MAJOR: null: Loading language: fr
+6.0.0 24-04-2016 16:39:19 Starting new session. Mods: examplemod 
+6.0.0 24-04-2016 16:39:50 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 24-04-2016 16:40:08 MAJOR: null: Loading language: fr
+6.0.0 29-04-2016 18:43:04 Starting new session. Mods: examplemod 
+6.0.0 29-04-2016 18:43:13 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 29-04-2016 18:43:23 MAJOR: null: Loading language: fr

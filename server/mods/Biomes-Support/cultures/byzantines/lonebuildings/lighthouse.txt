@@ -1,0 +1,26 @@
+name:Pharos
+weight:10
+radius:10
+biome:beach
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Beach
+biome:estuary
+biome:reef
+biome:beach dunes
+biome:beachdunes
+biome:ice_beach
+biome:snowpine_beach
+biome:tropical_island_beach
+biome:ice beach
+biome:snowpine beach
+biome:tropical island beach
+
+mindistancefromspawn:1000
+
+//starting buildings:
+centre:lighthouse

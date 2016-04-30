@@ -1,0 +1,23 @@
+name:Adivasi ka Ghar
+weight:100
+radius:25
+biome:swampland
+//extraBiomes mod
+biome:lush swamplands
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Swampland
+biome:wetland
+biome:bog
+biome:green swamp
+biome:marsh
+
+//starting buildings:
+centre:adivasifarm
+
+start:paddy
+start:spicegarden

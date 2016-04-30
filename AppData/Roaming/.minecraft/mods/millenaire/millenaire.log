@@ -1,0 +1,146 @@
+6.0.0 18-04-2016 23:01:17 Starting new session. Mods: examplemod 
+6.0.0 18-04-2016 23:01:20 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 18-04-2016 23:01:23 MAJOR: null: Loading language: en_US
+6.0.0 18-04-2016 23:01:23 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 18-04-2016 23:15:10 Starting new session. Mods: examplemod 
+6.0.0 18-04-2016 23:15:18 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 18-04-2016 23:15:22 MAJOR: null: Loading language: en_US
+6.0.0 18-04-2016 23:15:22 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 19-04-2016 22:59:31 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 22:59:40 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 22:59:43 MAJOR: null: Loading language: en_US
+6.0.0 19-04-2016 22:59:43 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 19-04-2016 23:16:51 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:16:58 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:17:02 MAJOR: null: Loading language: en_US
+6.0.0 19-04-2016 23:17:02 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 19-04-2016 23:33:05 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:33:13 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:33:16 MAJOR: null: Loading language: en_US
+6.0.0 19-04-2016 23:33:17 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 19-04-2016 23:55:49 Starting new session. Mods: examplemod 
+6.0.0 19-04-2016 23:56:00 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 19-04-2016 23:56:03 MAJOR: null: Loading language: en_US
+6.0.0 19-04-2016 23:56:03 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 00:00:13 Exception when generating village:
+6.0.0 20-04-2016 00:00:13 java.lang.ArrayIndexOutOfBoundsException: -9
+	at net.minecraft.world.chunk.Chunk.func_150810_a(Chunk.java:511)
+	at org.millenaire.common.MillWorldInfo.updateChunk(MillWorldInfo.java:509)
+	at org.millenaire.common.MillWorldInfo.createWorldInfo(MillWorldInfo.java:200)
+	at org.millenaire.common.MillWorldInfo.update(MillWorldInfo.java:380)
+	at org.millenaire.common.WorldGenVillage.generateVillage(WorldGenVillage.java:236)
+	at org.millenaire.common.WorldGenVillage.generateVillageAtPoint(WorldGenVillage.java:512)
+	at org.millenaire.common.WorldGenVillage.generate(WorldGenVillage.java:142)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:280)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1050)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+	at net.minecraft.world.World.func_147439_a(World.java:345)
+	at net.minecraft.block.BlockGrass.func_149674_a(BlockGrass.java:57)
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:391)
+	at WorldServerOF.func_147456_g(WorldServerOF.java:477)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:183)
+	at WorldServerOF.func_72835_b(WorldServerOF.java:234)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:625)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:186)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 20-04-2016 00:00:20 Repeat exception x2: -9
+6.0.0 20-04-2016 00:05:07 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 00:05:15 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 00:05:19 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 00:05:19 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 08:29:26 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 08:29:35 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 08:29:38 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 08:29:39 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 09:28:35 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 09:28:46 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 09:28:49 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 09:28:50 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 10:21:03 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 10:21:13 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 10:21:16 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 10:21:16 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 10:50:07 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 10:50:17 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 10:50:20 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 10:50:21 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 10:54:47 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 10:54:59 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 10:55:02 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 10:55:03 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 11:17:02 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 11:17:12 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 11:17:16 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 11:17:16 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 11:43:43 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 11:43:56 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 11:44:00 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 11:44:00 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 12:11:22 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 12:11:34 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 12:11:38 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 12:11:39 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 12:24:25 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 12:24:39 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 12:24:43 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 12:24:43 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 12:56:46 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 12:56:59 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 12:57:03 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 12:57:03 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 13:32:54 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 13:33:07 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 13:33:11 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 13:33:11 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 14:04:52 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 14:05:06 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 14:05:10 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 14:05:11 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 14:24:00 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 14:24:13 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 14:24:17 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 14:24:17 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 14:26:00 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 14:26:12 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 14:26:16 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 14:26:17 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 14:48:15 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 14:48:28 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 14:48:31 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 14:48:32 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 15:12:46 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 15:12:56 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 15:12:59 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 15:12:59 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 15:44:01 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 15:44:13 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 15:44:18 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 15:44:18 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 15:59:19 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 15:59:26 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 15:59:30 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 15:59:31 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 16:02:54 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 16:03:01 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 16:03:06 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 16:03:06 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 20-04-2016 16:11:48 Starting new session. Mods: examplemod 
+6.0.0 20-04-2016 16:11:53 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 20-04-2016 16:11:57 MAJOR: null: Loading language: en_US
+6.0.0 20-04-2016 16:11:58 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 24-04-2016 16:10:54 Starting new session. Mods: examplemod 
+6.0.0 24-04-2016 16:11:05 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 24-04-2016 16:11:09 MAJOR: null: Loading language: en_US
+6.0.0 24-04-2016 16:11:09 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 24-04-2016 16:39:41 Starting new session. Mods: examplemod 
+6.0.0 24-04-2016 16:39:54 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 24-04-2016 16:39:59 MAJOR: null: Loading language: en_US
+6.0.0 24-04-2016 16:40:00 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name

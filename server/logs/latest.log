@@ -1,0 +1,23 @@
+[18:42:39] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:43:09] [Server thread/INFO]: Loading properties
+[18:43:09] [Server thread/INFO]: Default game type: SURVIVAL
+[18:43:09] [Server thread/INFO]: Generating keypair
+[18:43:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:43:33] [Server thread/INFO]: Preparing level "world"
+[18:43:34] [Server thread/INFO]: Preparing start region for level 0
+[18:43:35] [Server thread/INFO]: Preparing spawn area: 1%
+[18:43:36] [Server thread/INFO]: Preparing spawn area: 91%
+[18:43:36] [Server thread/INFO]: Done (4.014s)! For help, type "help" or "?"
+[18:45:45] [Server thread/INFO]: Stopping the server
+[18:45:45] [Server thread/INFO]: Stopping server
+[18:45:45] [Server thread/INFO]: Saving players
+[18:45:45] [Server thread/INFO]: Saving worlds
+[18:45:45] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[18:45:45] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[18:45:45] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[18:45:45] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
+[18:45:46] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[18:45:46] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[18:45:46] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[18:45:46] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[18:45:46] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness

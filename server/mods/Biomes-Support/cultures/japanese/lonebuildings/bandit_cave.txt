@@ -1,0 +1,53 @@
+name:Iwamuro no Hito
+carriesraid:true
+
+mindistancefromspawn:1000
+
+weight:10
+radius:20
+biome:extreme hills
+biome:foresthills
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Extreme Hills
+biome:volcano
+biome:flying mountains
+biome:highlands
+biome:mountains
+biome:lonely mountain
+biome:volcano island
+biome:summit
+biome:foothills
+biome:canyon
+biome:mountain
+biome:hills
+biome:canyon high1
+biome:canyon high2
+biome:canyon high3
+biome:canyon fields
+biome:canyon lake
+biome:canyon_high1
+biome:canyon_high2
+biome:canyon_high3
+biome:canyon_fields
+biome:canyon_lake
+
+//Addon Extreme Hills Edge
+biome:cliffs
+biome:mesa
+biome:mountain ridge
+biome:extreme hills edge
+
+//Addon Forest Hills
+biome:woodland mountains
+biome:forested hills
+biome:foresthills
+biome:forest high
+biome:forest_high
+
+//starting buildings:
+centre:bandit_cave
