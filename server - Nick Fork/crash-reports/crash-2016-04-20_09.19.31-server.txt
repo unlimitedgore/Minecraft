@@ -1,0 +1,125 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 4/20/16 9:19 AM
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: com/agadar/brewingapi/BrewingRecipes
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:559)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:88)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+Caused by: java.lang.NoClassDefFoundError: com/agadar/brewingapi/BrewingRecipes
+	at com.agadar.archmagus.itemblock.ItemPotionBase.getManaStack(ItemPotionBase.java:71)
+	at com.agadar.archmagus.itemblock.ModItemsBlocks.registerModItemsAndBlocks(ModItemsBlocks.java:69)
+	at com.agadar.archmagus.Archmagus.preInit(Archmagus.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.agadar.brewingapi.BrewingRecipes
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 34 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 36 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (x86) version 6.3
+	Java Version: 1.8.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 216224552 bytes (206 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xms1024M -Xmx1024M -XX:MaxPermSize=1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 49 mods loaded, 49 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (forge.jar) 
+	UCH	Forge{10.13.4.1558} [Minecraft Forge] (forge.jar) 
+	UCH	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCH	FastCraft{1.23} [FastCraft] (fastcraft-1.23.jar) 
+	UCH	battlegear2{1.7.10} [Mine & Blade Battlegear 2 - Bullseye] (1.7.10-MB_Battlegear2-Bullseye-1.0.8.3.jar) 
+	UCE	archmagus{0.7.0} [Archmagus] (Archmagus-1.7.10-0.7.0.jar) 
+	UCH	bagginses{2.1.1} [Bagginses] (Bagginses-2.1.1.jar) 
+	UCH	BiomesOPlenty{2.1.0} [Biomes O' Plenty] (BiomesOPlenty-1.7.10-2.1.0.1396-universal.jar) 
+	UCH	AWWayofTime{v1.3.3} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.7.10-1.3.3-17.jar) 
+	UCH	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCH	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) 
+	UCH	Botania{r1.8-249} [Botania] (Botania r1.8-249.jar) 
+	UCH	CoFHCore{1.7.10R3.1.2} [CoFH Core] (CoFHCore-[1.7.10]3.1.2-325.jar) 
+	UCH	BuildCraft|Core{7.1.16} [BuildCraft] (buildcraft-7.1.16.jar) 
+	UCH	BuildCraft|Builders{7.1.16} [BC Builders] (buildcraft-7.1.16.jar) 
+	UCH	BuildCraft|Transport{7.1.16} [BC Transport] (buildcraft-7.1.16.jar) 
+	UCH	BuildCraft|Energy{7.1.16} [BC Energy] (buildcraft-7.1.16.jar) 
+	UCH	BuildCraft|Silicon{7.1.16} [BC Silicon] (buildcraft-7.1.16.jar) 
+	UCH	BuildCraft|Robotics{7.1.16} [BC Robotics] (buildcraft-7.1.16.jar) 
+	UCH	BuildCraft|Factory{7.1.16} [BC Factory] (buildcraft-7.1.16.jar) 
+	UCH	ComputerCraft{1.75} [ComputerCraft] (ComputerCraft1.75.jar) 
+	UCH	CustomSpawner{3.3.0} [DrZhark's CustomSpawner] (CustomMobSpawner 3.3.0.zip) 
+	UCH	lootablebodies{1.3.7} [DrCyano's Lootable Bodies] (CyanosLootableBodies-1.7.10-backport_1.3.7.jar) 
+	UCH	PTRModelLib{1.0.0} [PTRModelLib] (Decocraft-2.2.1_1.7.10.jar) 
+	UCH	props{2.2.1} [Decocraft] (Decocraft-2.2.1_1.7.10.jar) 
+	UCH	MoCreatures{6.3.1} [DrZhark's Mo'Creatures Mod] (DrZharks MoCreatures Mod v6.3.1.zip) 
+	UCH	fossil{1.7.10 Build 7.2.1} [Fossils and Archeology Revival] (Fossils_Archeology_Revival-1.7.10_Build-7.2.1.jar) 
+	UCH	GrimoireOfGaia{1.0.0} [Grimoire of Gaia 3] (GrimoireOfGaia3-1.7.10-1.2.7.jar) 
+	UCH	guideapi{1.7.10-1.0.1-20} [Guide-API] (Guide-API-1.7.10-1.0.1-20.jar) 
+	UCH	headcrumbs{1.7.4} [Headcrumbs] (Headcrumbs-1.7.4.jar) 
+	UCH	IC2{2.2.791-experimental} [IndustrialCraft 2] (Industrial-Craft-2-Mod-Experimental-1.7.10.jar) 
+	UCH	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks-1.59-dev-152.jar) 
+	UCH	journeymap{5.1.4} [JourneyMap] (journeymap-1.7.10-5.1.4-unlimited.jar) 
+	UCH	millenaire{6.0.0} [Millénaire] (millenaire-6.0.0.jar) 
+	UCH	necromancy{1.7.2} [Necromancy] (Necromancy-1.7.10.jar) 
+	UCH	RadixCore{2.1.1} [RadixCore] (RadixCore-1.7.10-2.1.1-universal.jar) 
+	UCH	Railcraft{9.10.0.0} [Railcraft] (Railcraft_1.7.10-9.10.0.0.jar) 
+	UCH	Roguelike{1.5.0} [Roguelike Dungeons] (roguelike-1.7.10-1.5.0b.jar) 
+	UCH	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCH	Sanguimancy{1.7.10-1.1.9-34} [Sanguimancy] (Sanguimancy-1.7.10-1.1.9-34.jar) 
+	UCH	StorageDrawers{1.7.10-1.9.7} [Storage Drawers] (StorageDrawers-1.7.10-1.9.7.jar) 
+	UCH	supercraftingframe{1.7.10.3} [Super Crafting Frame] (supercraftingframe-1.7.10.3.jar) 
+	UCH	Talismans 2{1.1.6} [Talismans 2] (Talismans2-1.7.10-1.1.6.jar) 
+	UCH	ThermalFoundation{1.7.10R1.2.3} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.3-112.jar) 
+	UCH	ThermalExpansion{1.7.10R4.1.2} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.1.2-240.jar) 
+	UCH	TwilightForest{2.3.7} [The Twilight Forest] (twilightforest-1.7.10-2.3.7 (1).jar) 
+	UCH	weaponmod{v1.14.3} [Balkon's WeaponMod] (weaponmod-1.14.3.jar) 
+	UCH	witchery{0.24.1} [Witchery] (witchery-1.7.10-0.24.1.jar) 
+	CoFHCore: -[1.7.10]3.1.2-325
+	ThermalFoundation: -[1.7.10]1.2.3-112
+	ThermalExpansion: -[1.7.10]4.1.2-240
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

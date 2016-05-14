@@ -1,0 +1,115 @@
+name:Meunier solitaire
+weight:10
+radius:15
+biome:river
+biome:forest
+biome:plains
+biome:foresthills
+
+//extraBiomes mod
+biome:forested hills
+biome:autumn woods
+biome:green hills
+
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon River
+biome:river normal
+biome:river green
+biome:river sand
+biome:river_normal
+biome:river_green
+biome:river_sand
+
+//Addon Forest
+biome:bamboo forest
+biome:birch forest
+biome:cherry blossom grove
+biome:dead forest
+biome:deciduous forest
+biome:fungi forest
+biome:grove
+biome:heathland
+biome:mangrove
+biome:maple woods
+biome:meadow forest
+biome:mystic grove
+biome:ominous woods
+biome:orchard
+biome:redwood forest
+biome:seasonal forest
+biome:thicket
+biome:woodland
+biome:autumn forest
+biome:birch forest
+biome:mixed forest
+biome:primordial forest
+biome:redwood forest
+biome:woodlands
+biome:forest island
+biome:autumn woods
+biome:woodland
+biome:prairie forest
+biome:hollow
+biome:forest lakes
+biome:seasonalforest
+biome:savannaforest
+biome:savanna forest
+biome:forest normal
+biome:forest lakes
+biome:forest plains
+biome:forest border
+biome:savanna_forest
+biome:forest_normal
+biome:forest_lakes
+biome:forest_plains
+biome:forest_border
+
+//Addon Plains
+biome:badlands
+biome:chaparral
+biome:deadlands
+biome:garden
+biome:grassland
+biome:meadow
+biome:origin valley
+biome:pasture
+biome:prairie
+biome:promised land
+biome:sacred springs
+biome:savanna
+biome:scrubland
+biome:shrubland
+biome:steppe
+biome:wasteland
+biome:lowlands
+biome:outback
+biome:sahel
+biome:savannah
+biome:valley
+biome:green hills
+biome:wasteland
+biome:dirt plains
+biome:moorland
+biome:savanna fields
+biome:savanna hills
+biome:savanna border
+biome:canyon valley
+biome:savanna_fields
+biome:savanna_hills
+biome:savanna_border
+biome:canyon_valley
+
+//Addon Forest Hills
+biome:woodland mountains
+biome:forested hills
+biome:foresthills
+biome:forest high
+biome:forest_high
+
+//starting buildings:
+centre:lonemill

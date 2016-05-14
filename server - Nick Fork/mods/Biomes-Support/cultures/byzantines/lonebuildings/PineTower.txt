@@ -1,0 +1,59 @@
+name:Mono Paratiritio
+weight:5
+radius:10
+biome:taiga
+biome:tundra
+
+//biome mods:
+biome:wetland
+biome:ominous woods
+biome:mountain
+biome:glacier
+biome:crag
+biome:coniferous forest
+biome:boreal forest
+biome:arctic
+biome:alps
+biome:temperate rainforest
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Byz Taiga
+biome:pinelands
+biome:tall pine forest
+biome:snow island
+biome:snowpines
+biome:snowforest
+biome:snowtaiga
+biome:pines
+biome:ice_forest
+biome:ice forest
+biome:snowpine_lake
+biome:snowpine_forest
+biome:snowpine_field
+biome:snowpine_border
+biome:snowpine lake
+biome:snowpine forest
+biome:snowpine field
+biome:snowpine border
+biome:pine_normal
+biome:pine_mix
+biome:pine_border
+biome:pine normal
+biome:pine mix
+biome:pine border
+
+//Addon Byz Tundra (ice plains)
+biome:ice plains
+biome:frozen
+biome:snow plains
+biome:snowplains
+biome:ice_plains
+biome:ice_border
+biome:ice border
+
+//starting buildings:
+centre:pinetower

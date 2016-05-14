@@ -1,0 +1,50 @@
+name:Zenshou
+weight:10
+radius:70
+
+mindistancefromspawn:2000
+
+biome:plains
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Plains
+biome:badlands
+biome:chaparral
+biome:deadlands
+biome:garden
+biome:grassland
+biome:meadow
+biome:origin valley
+biome:pasture
+biome:prairie
+biome:promised land
+biome:sacred springs
+biome:savanna
+biome:scrubland
+biome:shrubland
+biome:steppe
+biome:wasteland
+biome:lowlands
+biome:outback
+biome:sahel
+biome:savannah
+biome:valley
+biome:green hills
+biome:wasteland
+biome:dirt plains
+biome:moorland
+biome:savanna fields
+biome:savanna hills
+biome:savanna border
+biome:canyon valley
+biome:savanna_fields
+biome:savanna_hills
+biome:savanna_border
+biome:canyon_valley
+
+//starting buildings:
+centre:japaneseoutpost

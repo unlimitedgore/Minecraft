@@ -1,0 +1,151 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 4/19/16 11:52 PM
+Description: Exception getting block type in world
+
+java.lang.NoClassDefFoundError: org/lwjgl/LWJGLException
+	at net.minecraft.profiler.Profiler.func_76320_a(Profiler.java:64)
+	at net.minecraft.world.World.func_147465_d(World.java:459)
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_76484_a(WorldGenMinable.java:78)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:326)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:345)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:114)
+	at net.minecraft.world.biome.BiomeDecorator.func_150512_a(BiomeDecorator.java:105)
+	at net.minecraftforge.event.terraingen.DeferredBiomeDecorator.func_150512_a(DeferredBiomeDecorator.java:23)
+	at biomesoplenty.api.biome.BOPInheritedBiome.func_76728_a(BOPInheritedBiome.java:42)
+	at net.minecraft.world.gen.ChunkProviderGenerate.func_73153_a(ChunkProviderGenerate.java:421)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+	at net.minecraft.world.World.func_147439_a(World.java:345)
+	at net.minecraft.world.World.func_147437_c(World.java:365)
+	at biomesoplenty.common.world.WorldProviderSurfaceBOP.getTopBlockCoord(WorldProviderSurfaceBOP.java:41)
+	at biomesoplenty.common.world.WorldProviderSurfaceBOP.func_76566_a(WorldProviderSurfaceBOP.java:14)
+	at net.minecraft.world.WorldServer.func_73052_b(WorldServer.java:749)
+	at net.minecraft.world.WorldServer.func_72963_a(WorldServer.java:715)
+	at net.minecraft.world.World.<init>(World.java:260)
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:97)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:219)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:258)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.LWJGLException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:106)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.profiler.Profiler.func_76320_a(Profiler.java:64)
+	at net.minecraft.world.World.func_147465_d(World.java:459)
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_76484_a(WorldGenMinable.java:78)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:326)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:345)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:114)
+	at net.minecraft.world.biome.BiomeDecorator.func_150512_a(BiomeDecorator.java:105)
+	at net.minecraftforge.event.terraingen.DeferredBiomeDecorator.func_150512_a(DeferredBiomeDecorator.java:23)
+	at biomesoplenty.api.biome.BOPInheritedBiome.func_76728_a(BOPInheritedBiome.java:42)
+	at net.minecraft.world.gen.ChunkProviderGenerate.func_73153_a(ChunkProviderGenerate.java:421)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (-206,64,95), Chunk: (at 2,4,15 in -13,5; contains blocks -208,0,80 to -193,255,95), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+Stacktrace:
+	at net.minecraft.world.World.func_147439_a(World.java:345)
+	at net.minecraft.world.World.func_147437_c(World.java:365)
+	at biomesoplenty.common.world.WorldProviderSurfaceBOP.getTopBlockCoord(WorldProviderSurfaceBOP.java:41)
+	at biomesoplenty.common.world.WorldProviderSurfaceBOP.func_76566_a(WorldProviderSurfaceBOP.java:14)
+	at net.minecraft.world.WorldServer.func_73052_b(WorldServer.java:749)
+	at net.minecraft.world.WorldServer.func_72963_a(WorldServer.java:715)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 24 Drop: 0
+	Level seed: 68865432998543797
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 0 game time, 0 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.world.World.<init>(World.java:260)
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:97)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:219)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:258)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (x86) version 6.3
+	Java Version: 1.8.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 405259184 bytes (386 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xms1024M -Xmx1024M -XX:MaxPermSize=1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 15, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 28 mods loaded, 28 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{7.10.99.99} [Forge Mod Loader] (forge.jar) 
+	UCHIJAA	Forge{10.13.4.1558} [Minecraft Forge] (forge.jar) 
+	UCHIJAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAA	BiomesOPlenty{2.1.0} [Biomes O' Plenty] (BiomesOPlenty-1.7.10-2.1.0.1396-universal.jar) 
+	UCHIJAA	CoFHCore{1.7.10R3.1.2} [CoFH Core] (CoFHCore-[1.7.10]3.1.2-325.jar) 
+	UCHIJAA	BuildCraft|Core{7.1.16} [BuildCraft] (buildcraft-7.1.16.jar) 
+	UCHIJAA	BuildCraft|Builders{7.1.16} [BC Builders] (buildcraft-7.1.16.jar) 
+	UCHIJAA	BuildCraft|Transport{7.1.16} [BC Transport] (buildcraft-7.1.16.jar) 
+	UCHIJAA	BuildCraft|Energy{7.1.16} [BC Energy] (buildcraft-7.1.16.jar) 
+	UCHIJAA	BuildCraft|Silicon{7.1.16} [BC Silicon] (buildcraft-7.1.16.jar) 
+	UCHIJAA	BuildCraft|Robotics{7.1.16} [BC Robotics] (buildcraft-7.1.16.jar) 
+	UCHIJAA	BuildCraft|Factory{7.1.16} [BC Factory] (buildcraft-7.1.16.jar) 
+	UCHIJAA	PTRModelLib{1.0.0} [PTRModelLib] (Decocraft-2.2.1_1.7.10.jar) 
+	UCHIJAA	props{2.2.1} [Decocraft] (Decocraft-2.2.1_1.7.10.jar) 
+	UCHIJAA	IC2{2.2.791-experimental} [IndustrialCraft 2] (Industrial-Craft-2-Mod-Experimental-1.7.10.jar) 
+	UCHIJAA	journeymap{5.1.4} [JourneyMap] (journeymap-1.7.10-5.1.4-unlimited.jar) 
+	UCHIJAA	millenaire{6.0.0} [Millénaire] (millenaire-6.0.0.jar) 
+	UCHIJAA	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHIJAA	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) 
+	UCHIJAA	Railcraft{9.10.0.0} [Railcraft] (Railcraft_1.7.10-9.10.0.0.jar) 
+	UCHIJAA	ThermalFoundation{1.7.10R1.2.3} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.3-112.jar) 
+	UCHIJAA	ThermalExpansion{1.7.10R4.1.2} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.1.2-240.jar) 
+	UCHIJAA	TwilightForest{2.3.7} [The Twilight Forest] (twilightforest-1.7.10-2.3.7 (1).jar) 
+	UCHIJAA	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHIJAA	wawla{1.3.3} [What Are We Looking At] (Wawla-1.3.3-1.7.10.jar) 
+	UCHIJAA	weaponmod{v1.14.3} [Balkon's WeaponMod] (weaponmod-1.14.3.jar) 
+	UCHIJAA	witchery{0.24.1} [Witchery] (witchery-1.7.10-0.24.1.jar) 
+	CoFHCore: -[1.7.10]3.1.2-325
+	ThermalFoundation: -[1.7.10]1.2.3-112
+	ThermalExpansion: -[1.7.10]4.1.2-240
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

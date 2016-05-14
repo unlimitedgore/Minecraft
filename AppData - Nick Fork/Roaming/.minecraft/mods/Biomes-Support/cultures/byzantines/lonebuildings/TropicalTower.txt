@@ -1,0 +1,75 @@
+name:Mono Paratiritio
+weight:5
+radius:10
+biome:desert
+biome:swampland
+biome:jungle
+
+//biome mods:
+biome:badlands
+biome:dunes
+biome:lush desert
+biome:mountain ridge
+biome:lush swamp
+biome:green swamp
+biome:mesa
+biome:oasis
+biome:tropical rainforest
+biome:tropics
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Byz Desert
+biome:desert island
+biome:sand forest
+biome:desert_flat
+biome:desert_lakes
+biome:desert_oasis
+biome:desert_border
+biome:desert flat
+biome:desert lakes
+biome:desert oasis
+biome:desert border
+
+//Addon Byz Swampland
+biome:bog
+biome:marsh
+
+//Addon Byz Jungle
+biome:rainforest
+biome:temperate rainforest
+biome:tropical island
+biome:jungle island
+biome:tropicalisland
+biome:jungleisland
+biome:jungle_flat
+biome:jungle_flat_lake
+biome:jungle_flat_open
+biome:jungle_border
+biome:jungle flat
+biome:jungle flat lake
+biome:jungle flat open
+biome:jungle border
+biome:tropical_island
+biome:tropical_island_small
+biome:tropical_border
+biome:tropical island small
+biome:tropical border
+biome:rainforest_flat
+biome:rainforest_field
+biome:rainforest_lake
+biome:rainforest_lakes
+biome:rainforest_swamp
+biome:rainforest_border
+biome:rainforest flat
+biome:rainforest field
+biome:rainforest lake
+biome:rainforest lakes
+biome:rainforest swamp
+biome:rainforest border
+
+//starting buildings:
+centre:jungletower

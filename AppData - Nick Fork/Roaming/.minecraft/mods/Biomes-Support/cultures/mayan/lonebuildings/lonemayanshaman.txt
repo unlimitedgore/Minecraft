@@ -1,0 +1,32 @@
+name:Ah Waay Su'uk
+weight:10
+radius:15
+biome:forest
+biome:swampland
+biome:foresthills
+
+//extraBiomes mod
+biome:lush swamplands
+biome:rainforest
+biome:jungle
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Swampland
+biome:wetland
+biome:bog
+biome:green swamp
+biome:marsh
+
+//Addon Forest Hills
+biome:woodland mountains
+biome:forested hills
+biome:foresthills
+biome:forest high
+biome:forest_high
+
+//starting buildings:
+centre:lonemayanshaman

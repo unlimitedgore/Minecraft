@@ -1,0 +1,58 @@
+name:Bûcheron solitaire
+weight:10
+radius:10
+biome:taiga
+biome:taigahills
+
+//extraBiomes mod
+biome:taiga mountain
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Taiga
+biome:pinelands
+biome:tall pine forest
+biome:snow island
+biome:pine forest
+biome:snowy forest
+biome:snowy rainforest
+biome:snow pines
+biome:snow forest
+biome:snow taiga
+biome:pines
+biome:snowpines
+biome:snowforest
+biome:snowtaiga
+biome:ice forest
+biome:snowpine lake
+biome:snowpine forest
+biome:snowpine field
+biome:snowpine border
+biome:pine normal
+biome:pine mix
+biome:pine border
+biome:snowpine_lake
+biome:snowpine_forest
+biome:snowpine_field
+biome:snowpine_border
+biome:pine_normal
+biome:pine_mix
+biome:pine_border
+
+//Addon Taiga Hills
+biome:mountain taiga
+biome:shield
+biome:treeline
+biome:snowpine high
+biome:pine hills
+biome:pine valleys
+biome:taiga_hills
+biome:snowpine_high
+biome:pine_hills
+biome:pine_valleys
+
+//starting buildings:
+centre:lonelumbermantaigahut

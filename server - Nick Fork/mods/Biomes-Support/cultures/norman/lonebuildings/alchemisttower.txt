@@ -1,0 +1,53 @@
+name:Tour de l'Achimiste
+weight:10
+radius:15
+biome:extreme hills
+biome:ice mountains
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Extreme Hills
+biome:volcano
+biome:flying mountains
+biome:highlands
+biome:mountains
+biome:lonely mountain
+biome:volcano island
+biome:summit
+biome:foothills
+biome:canyon
+biome:mountain
+biome:hills
+biome:canyon high1
+biome:canyon high2
+biome:canyon high3
+biome:canyon fields
+biome:canyon lake
+biome:canyon_high1
+biome:canyon_high2
+biome:canyon_high3
+biome:canyon_fields
+biome:canyon_lake
+
+//Addon Extreme Hills Edge
+biome:cliffs
+biome:mesa
+biome:mountain ridge
+biome:extreme hills edge
+
+//Addon Ice Mountains
+biome:alps
+biome:alpine
+biome:snow hills
+biome:snowhills
+
+max:1
+keyLoneBuildingGenerateTag:alchemist_tower_generate
+
+mindistancefromspawn:2000
+
+//starting buildings:
+centre:alchemisttower

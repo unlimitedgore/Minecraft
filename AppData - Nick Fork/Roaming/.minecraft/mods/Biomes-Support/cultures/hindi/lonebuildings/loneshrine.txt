@@ -1,0 +1,115 @@
+name:Chota Mandir
+weight:5
+radius:12
+biome:extreme hills
+biome:forest
+biome:foresthills
+biome:deserthills
+biome:desert
+
+//Addon ALL
+biome:infdev
+biome:infdev snow
+biome:indev
+
+//Addon Extreme Hills
+biome:volcano
+biome:flying mountains
+biome:highlands
+biome:mountains
+biome:lonely mountain
+biome:volcano island
+biome:summit
+biome:foothills
+biome:canyon
+biome:mountain
+biome:hills
+biome:canyon high1
+biome:canyon high2
+biome:canyon high3
+biome:canyon fields
+biome:canyon lake
+biome:canyon_high1
+biome:canyon_high2
+biome:canyon_high3
+biome:canyon_fields
+biome:canyon_lake
+
+//Addon Extreme Hills Edge
+biome:cliffs
+biome:mesa
+biome:mountain ridge
+biome:extreme hills edge
+
+//Addon Forest
+biome:bamboo forest
+biome:birch forest
+biome:cherry blossom grove
+biome:dead forest
+biome:deciduous forest
+biome:fungi forest
+biome:grove
+biome:heathland
+biome:mangrove
+biome:maple woods
+biome:meadow forest
+biome:mystic grove
+biome:ominous woods
+biome:orchard
+biome:redwood forest
+biome:seasonal forest
+biome:thicket
+biome:woodland
+biome:autumn forest
+biome:birch forest
+biome:mixed forest
+biome:primordial forest
+biome:redwood forest
+biome:woodlands
+biome:forest island
+biome:autumn woods
+biome:woodland
+biome:prairie forest
+biome:hollow
+biome:forest lakes
+biome:seasonalforest
+biome:savannaforest
+biome:savanna forest
+biome:forest normal
+biome:forest lakes
+biome:forest plains
+biome:forest border
+biome:savanna_forest
+biome:forest_normal
+biome:forest_lakes
+biome:forest_plains
+biome:forest_border
+
+//Addon Forest Hills
+biome:woodland mountains
+biome:forested hills
+biome:foresthills
+biome:forest high
+biome:forest_high
+
+//Addon Desert Hills
+biome:dunes
+biome:mountain desert
+biome:sandstonehill
+biome:desert_hills
+
+//Addon Desert
+biome:desert island
+biome:oasis
+biome:sand forest
+biome:desert_flat
+biome:desert_lakes
+biome:desert_oasis
+biome:desert_border
+biome:desert flat
+biome:desert lakes
+biome:desert oasis
+biome:desert border
+
+//starting buildings:
+centre:loneshrine
