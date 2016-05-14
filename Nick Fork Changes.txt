@@ -1,5 +1,0 @@
-Remove Millenaire
-Made changes to Minecraft comes alive configuration
-Disabled Celebrity Spawning
-Removed Galacticraft + Micdoodle
-Removed ICBM + Voltz

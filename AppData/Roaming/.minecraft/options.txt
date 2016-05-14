@@ -1,18 +1,18 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:0.64084506
 saturation:0.0
-renderDistance:6
+renderDistance:14
 guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
 advancedOpengl:false
-maxFps:70
+maxFps:120
 fboEnable:true
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:[]
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
+enableVsync:true
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -85,6 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_Zoom:29
 key_ALT Key:56
 key_Boost Key:29
 key_Mode Switch Key:50
@@ -96,31 +97,73 @@ key_key.archimedes.brake:46
 key_key.archimedes.align:13
 key_key.archimedes.decompile:43
 key_key.archimedes.shipinv:37
-key_Open CraftGuide:34
-key_Shoot Normal Tear:33
-key_Shoot Blood Tear:34
+key_MoCreatures Dive:33
+key_MoCreatures GUI:64
+key_Tool Increase:201
+key_Tool Decrease:209
+key_Gravi Fly Key:33
+key_Gravi Display Hud:35
+key_Mount Ability:33
+key_Mount Inventory:0
+key_Lycanites Mobs Main Menu:34
+key_Beastiary:0
+key_Pet Manager:0
+key_Mount Manager:0
+key_Familiar Manager:0
+key_Minion Manager:0
+key_Minion Selection:19
+key_simplyjetpacks.keybind.toggle.primary:33
+key_simplyjetpacks.keybind.toggle.secondary:0
+key_simplyjetpacks.keybind.mode.primary:46
+key_simplyjetpacks.keybind.mode.secondary:0
+key_simplyjetpacks.keybind.openPackGUI:22
 key_keys.Talismans.craft:46
 key_Baubles Inventory:48
 key_Change Wand Focus:33
 key_Activate Hover Harness:35
 key_Misc Wand Toggle:34
+key_key.placeItem:25
+key_key.toolConfig:46
+key_key.toolProfileChange:43
+key_key.toggleFlight:0
 key_Dynamic Lights toggle:38
-key_[GC] Galaxy Map:50
-key_[GC] Open Spaceship Inventory:33
-key_[GC] Toggle Sensor Goggles Mode:37
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_Glider Toggle:34
+key_Sound Locator:38
+key_Night Vision:25
+key_Goggles of Revealing:19
+key_Step Assist:0
+key_Speed:0
+key_Jump:0
+key_Yeta Wrench Mode:21
+key_Toggle Electromagnet:0
 key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
+key_ttmisc.toggleArmor:22
+key_[GC] Galaxy Map:50
+key_[GC] Open Spaceship Inventory:33
+key_[GC] Toggle Sensor Goggles Mode:37
 key_invtweaks.key.sort:19
 key_LvlUpGUI:38
+key_pe.key.armor_toggle:33
+key_pe.key.charge:47
+key_pe.key.extra_function:46
+key_pe.key.fire_projectile:19
+key_pe.key.mode:34
+key_key.craftingGrid:46
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
+key_railcraft.keybind.loco.faster:52
+key_railcraft.keybind.loco.slower:51
+key_railcraft.keybind.loco.mode:50
+key_railcraft.keybind.loco.whistle:49
+key_key.control:29
 key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
@@ -128,16 +171,12 @@ key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48
-key_railcraft.keybind.loco.faster:52
-key_railcraft.keybind.loco.slower:51
-key_railcraft.keybind.loco.mode:50
-key_railcraft.keybind.loco.whistle:49
-soundCategory_master:0.105960265
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_hostile:0.5915493
+soundCategory_neutral:0.056338027
 soundCategory_player:1.0
 soundCategory_ambient:1.0
