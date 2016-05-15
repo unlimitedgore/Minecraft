@@ -58,7 +58,7 @@ del /f /q autostart.stamp > nul 2>1
 
 :startserver
 echo Starting server
-java -server -Xms1024M -Xmx4048M -XX:PermSize=512M -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar FTBServer-1.7.10-1614.jar nogui
+java -server -Xms1024M -Xmx6144M -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar FTBServer-1.7.10-1614.jar nogui
 
 :server_loop
 if exist autostart.stamp (
