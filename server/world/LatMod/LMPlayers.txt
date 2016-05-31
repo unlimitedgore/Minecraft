@@ -1,6 +1,0 @@
-1     unlimitedgore        00cc7b4868a245bfa6690bfa2fb216e7
-2     Sublimekilla         232e5fbccbd74bf09c6843fb5b8499cd
-3     tweakley             925ff3f5b8ac48009b1238e11ca621aa
-4     Da_Mini_Moose        253a3ba5c54740cdaa3e4fdecde6fcee
-5     Veric666             6dad26165ba64e3f9c96b333734a374d
-6     gscr121              ee0a0b0ffdad4bec83321332a9624fd0
